@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,6 +18,7 @@ root.render(
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<Experience />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

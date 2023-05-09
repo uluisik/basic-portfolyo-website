@@ -298,3 +298,6 @@
   font-size: 60px;
   color: #3e497a;
 }
+.item {
+  list-style-type: none;
+}
